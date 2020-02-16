@@ -2,7 +2,7 @@ version: '2'
 
 services:
   v2ray:
-    image: rico93/v2ray_v3:go_pay
+    image: evcehiack/v2ray:ff
     restart: always
     network_mode: "host"
     environment:
@@ -32,7 +32,7 @@ services:
         max-file: "3"
 
   caddy:
-    image: rico93/v2ray_v3:caddy
+    image: evcehiack/v2ray:caddy
     restart: always
     environment:
       - ACME_AGREE=true
