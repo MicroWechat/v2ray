@@ -2,7 +2,7 @@ version: '2'
 
 services:
   v2ray:
-    image: evcehiack/v2ray:ff
+    image: evcehiack/v2ray:pay
     restart: always
     network_mode: "host"
     environment:
